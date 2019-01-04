@@ -1,0 +1,25 @@
+{
+  "name": "BotAnime",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node src/bot.js | ./node_modules/.bin/bunyan -o short",
+    "dev": "nodemon src/bot.js | ./node_modules/.bin/bunyan -o short"
+  },
+  "author": "David Lam",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bufferutil": "^3.0.5",
+    "bunyan": "^1.8.12",
+    "discord.js": "^11.3.2",
+    "dotenv": "^6.0.0",
+    "erlpack": "discordapp/erlpack",
+    "libsodium-wrappers": "^0.7.3",
+    "moment-timezone": "^0.5.21"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
